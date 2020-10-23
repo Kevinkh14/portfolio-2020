@@ -1,0 +1,39 @@
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    height: 110vh;
+}
+.top-menu{
+   display: flex;
+   justify-content: center;
+   position: fixed;
+   top:0
+}
+.home-img{
+    position: absolute;
+    right:0;
+    top:0;
+    z-index: -1;
+}
+.menu-list{
+    display: flex;
+    justify-content: space-around;
+    width: 30vw;
+    color: white;
+    font-weight: bold;
+    text-shadow: rgb(124, 116, 116) .5px .5px;
+}
+.name{
+    font-size: 100px;
+    color: white;
+    margin: 0;
+}
+.home{
+    display: flex;
+    flex-direction: column;  
+    color: white;
+    text-shadow: rgb(124, 116, 116) 2px 2px;
+}
