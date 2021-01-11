@@ -7,11 +7,11 @@ export default class Header extends Component {
       <header className = "header">
         <div className = "top-menu">
           <ul className = "menu-list">
-            <l1>HOME</l1>
-            <l2>ABOUT</l2>
-            <l3>RESUME</l3>
-            <l4>PROJECTS</l4>
-            <l5>CONTACT</l5>
+            <l1 ><a href="#home">HOME</a></l1>
+            <l2><a href="#about">ABOUT</a></l2>
+            <l3><a href="#resume">RESUME</a></l3>
+            <l4><a href="#projects" >PROJECTS</a></l4>
+            <l5><a href="#contact">CONTACT</a></l5>
           </ul>
         </div>
         <div className = "home">

@@ -1,0 +1,40 @@
+.projects{
+    padding-top: 60px;
+    background-color: #ebeeee;
+}
+.prj-img{
+    width: 15vw;
+    margin: 50px;
+}
+.prj-header{
+    font-size: 15px;
+    letter-spacing: 1px; 
+    color: #95A3A3;   
+    text-transform: uppercase;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #191919;
+    padding: 60px;
+    
+}
+.ctc-header{
+   color:#636363 ;
+   font-size: 10px;
+   font-weight: lighter;
+   display: flex;
+   justify-content: flex-start;
+   width: 60vw;
+
+}
+.ctc-info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: white;
+    font-size: 10px;
+    width: 60vw;
+    margin-top: 30px;
+}

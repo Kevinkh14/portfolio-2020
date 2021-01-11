@@ -5,7 +5,7 @@ export default class Header extends Component {
   render() {
     return (
       <div className="resume">
-        <section className="res-sec">
+        <section id = "resume" className="res-sec">
           <div>
             <h1>Education</h1>
           </div>
@@ -31,18 +31,35 @@ export default class Header extends Component {
           </div>
           <div className="edu-info">
             <h1 id="school">Worp.Space</h1>
-            <p>Forum website where people can make posts on a specific topic and share it with people with similar interests.• October 2019</p>
+            <p>
+              Forum website where people can make posts on a specific topic and
+              share it with people with similar interests.• October 2019
+            </p>
             <p>-Individual project.Completed in 2 weeks.</p>
-            <p>-Learned three new technologies while completing this project which included Sass/Scss, Cloudinary, and NodeMailer.</p>
+            <p>
+              -Learned three new technologies while completing this project
+              which included Sass/Scss, Cloudinary, and NodeMailer.
+            </p>
+          </div>
+          <div className="edu-info">
+            <h1 id="school">Trakd.net</h1>
+            <p>
+              Trakd is a website where users can track their calorie intake and
+              the other things like carbs, fat and protein.• October 2019
+            </p>
+            <p>-Group Project. Completed in 2 weeks..</p>
+            <p>
+              -Learned new technology chartjs and implemented cloudinary
+              nodemailer and an external food api (Edamam).
+            </p>
           </div>
         </section>
         <section className="res-sec">
           <div>
             <h1>Skills</h1>
+            <p>HTML5 <i class = "fab fa-html5"></i> CSS<i class = "fab fa-fab fa-css3-alt"></i>  JAVASCRIPT <i class = "fab fa-js"></i>  REACTJS<i class = "fab fa-react"></i>  NODEJS<i class = "fab fa-node"></i>  EXPRESSJS<i class = "fas fa-server"></i>  SQL<i class = "fas fa-database"></i> </p>
           </div>
-          <div className="edu-info">
-         
-          </div>
+          <div className="edu-info"></div>
         </section>
       </div>
     );

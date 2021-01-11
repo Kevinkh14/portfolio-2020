@@ -5,7 +5,7 @@ export default class Header extends Component{
     render(){
         return(
             <div className = "about">
-                <section>
+                <section id ="about">
                     <img className ="prof-pic" src = "https://res.cloudinary.com/kevin14/image/upload/v1600883881/qua1t5qylff3hhmcbpbc.jpg"/>
                 </section>
                 <section className = 'about-txt'>

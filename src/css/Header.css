@@ -37,3 +37,7 @@
     color: white;
     text-shadow: rgb(124, 116, 116) 2px 2px;
 }
+a{
+    color: white;
+    text-decoration: none;
+}
