@@ -4,8 +4,8 @@ import "../css/About.css"
 export default class Header extends Component{
     render(){
         return(
-            <div className = "about">
-                <section id ="about">
+            <div className = "about" id ="about">
+                <section >
                     <img className ="prof-pic" src = "https://res.cloudinary.com/kevin14/image/upload/v1600883881/qua1t5qylff3hhmcbpbc.jpg"/>
                 </section>
                 <section className = 'about-txt'>
