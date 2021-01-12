@@ -33,7 +33,7 @@ export default class Header extends Component {
             <h1 id="school">Worp.Space</h1>
             <p>
               Forum website where people can make posts on a specific topic and
-              share it with people with similar interests.• October 2019
+              share it with people with similar interests.• October 2018
             </p>
             <p>-Individual project.Completed in 2 weeks.</p>
             <p>
