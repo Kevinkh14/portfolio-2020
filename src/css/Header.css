@@ -10,7 +10,9 @@
    display: flex;
    justify-content: center;
    position: fixed;
-   top:0
+   top:0;
+   width: 100%;
+   background-color: #333;
 }
 .home-img{
     position: absolute;
@@ -21,7 +23,7 @@
 .menu-list{
     display: flex;
     justify-content: space-around;
-    width: 30vw;
+    width: 600px;
     color: white;
     font-weight: bold;
     text-shadow: rgb(124, 116, 116) .5px .5px;
@@ -40,4 +42,13 @@
 a{
     color: white;
     text-decoration: none;
+}
+.socials{
+    width: 70px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+}
+a:hover{
+    color: rgb(12, 12, 165);
 }

@@ -57,7 +57,7 @@ export default class Header extends Component {
         <section className="res-sec">
           <div>
             <h1>Skills</h1>
-            <p>HTML5 <i class = "fab fa-html5"></i> CSS<i class = "fab fa-fab fa-css3-alt"></i>  JAVASCRIPT <i class = "fab fa-js"></i>  REACTJS<i class = "fab fa-react"></i>  NODEJS<i class = "fab fa-node"></i>  EXPRESSJS<i class = "fas fa-server"></i>  SQL<i class = "fas fa-database"></i> </p>
+            <p className = "skills">HTML5 <i class = "fab fa-html5"></i> CSS<i class = "fab fa-fab fa-css3-alt"></i>  JAVASCRIPT <i class = "fab fa-js"></i>  REACTJS<i class = "fab fa-react"></i>  NODEJS<i class = "fab fa-node"></i>  EXPRESSJS<i class = "fas fa-server"></i>  SQL<i class = "fas fa-database"></i> </p>
           </div>
           <div className="edu-info"></div>
         </section>

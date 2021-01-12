@@ -38,3 +38,9 @@
     width: 60vw;
     margin-top: 30px;
 }
+.socials2{
+    font-size: 35px;
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+}
