@@ -23,3 +23,12 @@
     border-radius: 50%;
     margin: 30px;
 }
+@media(max-width:400px){
+    .about{
+        flex-direction: column;
+        align-items: center;
+    }
+    .about-txt{
+        width: 70vw;
+    }
+}

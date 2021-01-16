@@ -44,3 +44,17 @@
     display: flex;
     justify-content: space-between;
 }
+@media(max-width:400px){
+    .contact{
+        padding: 20px;
+    }
+    .ctc-header{
+        font-size: 9px;
+    }
+    .ctc-info{
+        width: 70vw;
+        font-size: 8px;
+        align-items: center;
+    }
+    
+}
