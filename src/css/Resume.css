@@ -16,9 +16,18 @@
     line-height: 30px;
     color: #6E7881;
 }
+#education{
+    text-decoration: underline;
+}
+#work{
+    text-decoration: underline;
+}
 #school{
     margin-bottom: 0px;
     color: black;
+}
+.skill{
+    text-decoration: underline;
 }
 .skills{
     font-size: 20px;

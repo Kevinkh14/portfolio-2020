@@ -7,7 +7,7 @@ export default class Header extends Component {
       <div className="resume">
         <section id = "resume" className="res-sec">
           <div>
-            <h1>Education</h1>
+            <h1 id = 'education'>Education</h1>
           </div>
           <div className="edu-info">
             <h1 id="school">Devmountain</h1>
@@ -27,7 +27,7 @@ export default class Header extends Component {
         </section>
         <section className="res-sec">
           <div>
-            <h1>Work</h1>
+            <h1 id = 'work'>Work</h1>
           </div>
           <div className="edu-info">
             <h1 id="school">Worp.Space</h1>
@@ -56,7 +56,7 @@ export default class Header extends Component {
         </section>
         <section className="res-sec">
           <div>
-            <h1>Skills</h1>
+            <h1 className = 'skill'>Skills</h1>
             <p className = "skills">HTML5 <i class = "fab fa-html5"></i> CSS<i class = "fab fa-fab fa-css3-alt"></i>  JAVASCRIPT <i class = "fab fa-js"></i>  REACTJS<i class = "fab fa-react"></i>  NODEJS<i class = "fab fa-node"></i>  EXPRESSJS<i class = "fas fa-server"></i>  SQL<i class = "fas fa-database"></i> </p>
           </div>
           <div className="edu-info"></div>

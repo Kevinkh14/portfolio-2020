@@ -43,6 +43,12 @@ a{
     color: white;
     text-decoration: none;
 }
+#ham{
+    display: none;
+    position: fixed;
+    right:30px;
+    top:20px;
+}
 .socials{
     width: 70px;
     display: flex;
@@ -52,6 +58,60 @@ a{
 a:hover{
     color: rgb(12, 12, 165);
 }
+.menu-list1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 600px;
+    color: black;
+    font-weight: bold;
+    text-shadow: rgb(124, 116, 116) .5px .5px;
+}
+div.side-menu,.side-menu-open,.side-menu-close{
+    display: flex;
+    
+    justify-content: space-evenly;;
+    position: fixed;
+    right:0vw;
+    height:50vh;
+    width: 30vw;
+    z-index: 0;
+    transform: translatex(600px);
+}
+
+.side-menu-open{
+    display: flex;
+    animation: open .5s forwards ease;
+}
+.side-menu-close{
+    display: flex;
+    animation: close .5s forwards ease
+}
+@keyframes open{
+    to{
+      
+        transform: translatex(-5px);
+       
+    }
+}
+@keyframes close{
+    from {
+       
+        transform: translatex(0px);
+        
+    }
+    to{
+       
+        transform: translatex(600px);
+        
+    }
+}
+@keyframes open-butt{
+    to{
+        transform: -100px
+    }
+}
+
 @media(max-width: 1000px) {
     .name {
       font-size: 75px;
@@ -63,6 +123,10 @@ a:hover{
       }
       .name {
         font-size: 50px;
+      }
+      #ham{
+          display: block;
+          color: white;
       }
       
   }

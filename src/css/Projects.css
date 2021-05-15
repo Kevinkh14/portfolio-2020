@@ -56,5 +56,8 @@
         font-size: 8px;
         align-items: center;
     }
+    .prj-img{
+        width: 50vw;
+    }
     
 }
