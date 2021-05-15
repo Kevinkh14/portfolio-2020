@@ -69,7 +69,7 @@ a:hover{
 }
 div.side-menu,.side-menu-open,.side-menu-close{
     display: flex;
-    
+    margin-top: 50px;
     justify-content: space-evenly;;
     position: fixed;
     right:0vw;
@@ -77,6 +77,7 @@ div.side-menu,.side-menu-open,.side-menu-close{
     width: 30vw;
     z-index: 0;
     transform: translatex(600px);
+    
 }
 
 .side-menu-open{
