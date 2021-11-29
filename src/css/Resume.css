@@ -1,4 +1,19 @@
+.resume{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .res-sec{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    margin: 0px;
+    width: 90vw;
+}
+.res-sec2{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -6,6 +21,10 @@
     justify-content: space-evenly;
     margin-top: 30px;
     width: 90vw;
+}
+.res{
+    display: flex;
+    flex-wrap: wrap;
 }
 .edu-info{
     display: flex;
@@ -16,6 +35,19 @@
     line-height: 30px;
     color: #6E7881;
 }
+.resume-img{
+    width: 30vw;
+    position:absolute;
+    z-index: 0;
+    
+}
+.resume-img:hover{
+    cursor: pointer;
+}
+.skills-sec{
+    margin-top: 20vh;
+}
+
 #education{
     text-decoration: underline;
 }

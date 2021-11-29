@@ -26,8 +26,9 @@ export default class Header extends Component {
           </div>
         </section>
         <section className="res-sec">
-          <div>
             <h1 id = 'work'>Work</h1>
+            <div className = "res">
+          <div>
           </div>
           <div className="edu-info">
             <h1 id="school">Worp.Space</h1>
@@ -41,6 +42,7 @@ export default class Header extends Component {
               which included Sass/Scss, Cloudinary, and NodeMailer.
             </p>
           </div>
+          <a href = "https://drive.google.com/file/d/1XPeAsDb05bWh1upm_2Codc1jUwsPb9_8/view?usp=sharing"  target="_blank"><img className="resume-img" alt ='res' src = "/images/resume1.PNG"/></a>
           <div className="edu-info">
             <h1 id="school">Trakd.net</h1>
             <p>
@@ -53,13 +55,15 @@ export default class Header extends Component {
               nodemailer and an external food api (Edamam).
             </p>
           </div>
+          
+        </div>
         </section>
-        <section className="res-sec">
+        <section className="skills-sec">
           <div>
             <h1 className = 'skill'>Skills</h1>
             <p className = "skills">HTML5 <i class = "fab fa-html5"></i> CSS<i class = "fab fa-fab fa-css3-alt"></i>  JAVASCRIPT <i class = "fab fa-js"></i>  REACTJS<i class = "fab fa-react"></i>  NODEJS<i class = "fab fa-node"></i>  EXPRESSJS<i class = "fas fa-server"></i>  SQL<i class = "fas fa-database"></i> </p>
           </div>
-          <div className="edu-info"></div>
+          
         </section>
       </div>
     );
