@@ -5,9 +5,9 @@ export default class Header extends Component {
   render() {
     return (
       <div className="resume">
-        <section id = "resume" className="res-sec">
+        <section id="resume" className="res-sec">
           <div>
-            <h1 id = 'education'>Education</h1>
+            <h1 id='education'>Education</h1>
           </div>
           <div className="edu-info">
             <h1 id="school">Devmountain</h1>
@@ -26,44 +26,44 @@ export default class Header extends Component {
           </div>
         </section>
         <section className="res-sec">
-            <h1 id = 'work'>Work</h1>
-            <div className = "res">
-          <div>
+          <h1 id='work'>Work</h1>
+          <div className="res">
+            <div>
+            </div>
+            <div className="edu-info">
+              <h1 id="school">Worp.Space</h1>
+              <p>
+                Forum website where people can make posts on a specific topic and
+                share it with people with similar interests.• October 2019
+              </p>
+              <p>-Individual project.Completed in 2 weeks.</p>
+              <p>
+                -Learned three new technologies while completing this project
+                which included Sass/Scss, Cloudinary, and NodeMailer.
+              </p>
+            </div>
+            <a href="/files/Kevin Hernandez .docx.pdf" target="_blank" download="Kevin resume"><img className="resume-img" alt='res' src="/images/newresume.png" /></a>
+            <div className="edu-info">
+              <h1 id="school">Trakd.net</h1>
+              <p>
+                Trakd is a website where users can track their calorie intake and
+                the other things like carbs, fat and protein.• October 2019
+              </p>
+              <p>-Group Project. Completed in 2 weeks..</p>
+              <p>
+                -Learned new technology chartjs and implemented cloudinary
+                nodemailer and an external food api (Edamam).
+              </p>
+            </div>
+
           </div>
-          <div className="edu-info">
-            <h1 id="school">Worp.Space</h1>
-            <p>
-              Forum website where people can make posts on a specific topic and
-              share it with people with similar interests.• October 2019
-            </p>
-            <p>-Individual project.Completed in 2 weeks.</p>
-            <p>
-              -Learned three new technologies while completing this project
-              which included Sass/Scss, Cloudinary, and NodeMailer.
-            </p>
-          </div>
-          <a href = "https://drive.google.com/file/d/1XPeAsDb05bWh1upm_2Codc1jUwsPb9_8/view?usp=sharing"  target="_blank"><img className="resume-img" alt ='res' src = "/images/resume1.PNG"/></a>
-          <div className="edu-info">
-            <h1 id="school">Trakd.net</h1>
-            <p>
-              Trakd is a website where users can track their calorie intake and
-              the other things like carbs, fat and protein.• October 2019
-            </p>
-            <p>-Group Project. Completed in 2 weeks..</p>
-            <p>
-              -Learned new technology chartjs and implemented cloudinary
-              nodemailer and an external food api (Edamam).
-            </p>
-          </div>
-          
-        </div>
         </section>
         <section className="skills-sec">
           <div>
-            <h1 className = 'skill'>Skills</h1>
-            <p className = "skills">HTML5 <i class = "fab fa-html5"></i> CSS<i class = "fab fa-fab fa-css3-alt"></i>  JAVASCRIPT <i class = "fab fa-js"></i>  REACTJS<i class = "fab fa-react"></i>  NODEJS<i class = "fab fa-node"></i>  EXPRESSJS<i class = "fas fa-server"></i>  SQL<i class = "fas fa-database"></i> </p>
+            <h1 className='skill'>Skills</h1>
+            <p className="skills">HTML5 <i class="fab fa-html5"></i> CSS<i class="fab fa-fab fa-css3-alt"></i>  JAVASCRIPT <i class="fab fa-js"></i>  REACTJS<i class="fab fa-react"></i>  NODEJS<i class="fab fa-node"></i>  EXPRESSJS<i class="fas fa-server"></i>  SQL<i class="fas fa-database"></i> </p>
           </div>
-          
+
         </section>
       </div>
     );

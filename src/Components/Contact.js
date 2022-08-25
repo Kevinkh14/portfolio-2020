@@ -11,14 +11,15 @@ export default class Header extends Component {
         <div className="ctc-info">
           <h1>Email: Kevin.hernandez1802@Gmail.com</h1>
           <h1>Phone: 2149096343</h1>
-          <div className = "socials2">
+          <div className="socials2">
             <a
               href="https://www.linkedin.com/in/kevinhernandez14/"
               target="_blank"
+              rel="noopener noreferrer"
             >
               <i class="fab fa-linkedin"></i>
             </a>
-            <a href="https://github.com/Kevinkh14" target="_blank">
+            <a href="https://github.com/Kevinkh14" target="_blank" rel="noopener noreferrer">
               <i class="fab fa-github"></i>
             </a>
           </div>
